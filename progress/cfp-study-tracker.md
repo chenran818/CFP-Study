@@ -1,8 +1,8 @@
 # CFP Exam Study Tracker
 
-**Last Updated**: October 23, 2025
+**Last Updated**: October 24, 2025
 **Exam Date**: November 10, 2025
-**Days Until Exam**: 18 days
+**Days Until Exam**: 17 days
 
 This single document tracks ALL your CFP exam preparation progress, including:
 - Topics mastered from study sessions
@@ -14,9 +14,9 @@ This single document tracks ALL your CFP exam preparation progress, including:
 
 ## Quick Stats
 
-📊 **Overall Progress**: 48/73 topics covered = **66%**
+📊 **Overall Progress**: 51/73 topics covered = **70%**
 📚 **Study Materials**: 1,088 pages of 2024 Dalton slides
-⏰ **Time Remaining**: 18 days
+⏰ **Time Remaining**: 17 days
 🎯 **Target**: Pass CFP exam November 10, 2025
 
 ---
@@ -28,7 +28,7 @@ This single document tracks ALL your CFP exam preparation progress, including:
 | **A. Professional Conduct** | 8% | 0/6 | ✓ 90 pages | ⚪ Not Started | Medium |
 | **B. General Principles** | 15% | 3/10 | ✓ 90 pages | 🟡 Started (30%) | **HIGH** |
 | **C. Insurance & Risk** | 11% | 10/10 | ✓ 188 pages | 🟢 **COMPLETE (100%)** ✅ | **DONE** |
-| **D. Investment Planning** | 17% | 4/9 | ✓ 188 pages | 🟡 In Progress (44%) | **HIGH** |
+| **D. Investment Planning** | 17% | 7/9 | ✓ 188 pages | 🟡 In Progress (78%) | **HIGH** |
 | **E. Tax Planning** | 14% | 8/8 | ✓ 150 pages | 🟢 **COMPLETE (100%)** ✅ | **DONE** |
 | **F. Retirement** | **18%** ⭐ | 10/10 | ✓ 182 pages | 🟢 **COMPLETE (100%)** ✅ | **DONE** |
 | **G. Estate Planning** | 10% | 9/14 | ✓ 200 pages | 🟡 In Progress (64%) | Medium |
@@ -264,7 +264,22 @@ This single document tracks ALL your CFP exam preparation progress, including:
 
 **Slides**: Investments (188 pages)
 
-### ✅ Mastered Topics (4/9 - partial)
+### ✅ Mastered Topics (7/9 - partial)
+
+- [x] **D.27 Investment vehicles** (2025-10-24) - **Medium-High confidence** (PARTIAL)
+  - **Zero-Coupon Bonds** (2025-10-24) - MASTERED:
+    - Buy at discount, receive par at maturity
+    - No coupon payments (hence "zero coupon")
+    - **OID (Original Issue Discount)** taxation - see E.37
+    - Must use compound interest accretion for tax reporting
+    - Phantom income problem (pay tax on money not received)
+    - Best held in tax-deferred accounts (IRA, 401k)
+    - Calculate implied YTM: FV = PV × (1 + r)^n
+    - Perfect on practice problem (10-year bond, Year 2 tax calculation) ✓
+  - **Treasury Securities** (2025-10-24):
+    - T-Bills → T-Notes → T-Bonds (shortest to longest maturity)
+  - **In slides**: Pages 20-50
+  - **Still need to cover**: Stocks, mutual funds, REITs, ETFs, options, futures, ADRs
 
 - [x] **D.28 Types of investment risk** (2025-10-11) - **High confidence**
   - R-squared and risk decomposition
@@ -273,20 +288,77 @@ This single document tracks ALL your CFP exam preparation progress, including:
   - Correlation and diversification
   - **In slides**: Pages 60-75
 
-- [x] **D.34 Investment strategies** (2025-10-11) - **High confidence** (partial)
+- [x] **D.29 Market cycles** (2025-10-24) - **High confidence** (PARTIAL)
+  - **Technical Analysis** (2025-10-24) - MASTERED:
+    - **vs Fundamental Analysis**:
+      - Technical: Focus on price patterns, charts
+      - Fundamental: Focus on company financials (earnings, P/E, revenue)
+    - **Support** = Floor where price bounces UP
+      - Buying demand kicks in at this level
+      - Acts as floor holding price up
+    - **Resistance** = Ceiling where price bounces DOWN
+      - Selling pressure kicks in at this level
+      - Acts as ceiling holding price down
+    - **Breakout** = Price breaks through support or resistance
+      - Upward breakout (above resistance) = bullish signal
+      - Downward breakout (below support) = bearish signal
+    - **Trading Strategies**:
+      - Range trading: Buy at support, sell at resistance
+      - Breakout trading: Buy when breaks above resistance
+    - **Memory trick**: Ball bouncing in room (floor = support, ceiling = resistance)
+    - Perfect on practice problem (stock trading $20-$26 range) ✓
+  - **In slides**: Pages 75-95
+  - **Still need to cover**: EMH (weak/semi-strong/strong), yield curve theories, market anomalies
+
+- [x] **D.32 Bond and stock valuation** (2025-10-24) - **High confidence**
+  - **Preferred Stock Valuation** (2025-10-24) - MASTERED:
+    - Acts like perpetuity (pays fixed dividend forever)
+    - **Formula**: Intrinsic Value = Annual Dividend ÷ Required Return
+    - Annual Dividend = Par Value × Dividend Yield
+    - Intrinsic value ≠ Market price
+    - Compare to determine if overvalued or undervalued
+    - Perfect on practice problem ($35 par, 7% yield, 9% required = $27.22) ✓
+  - **Bond Yields - YTM vs YTC** (2025-10-24) - MASTERED:
+    - **YTM (Yield to Maturity)**: Total return if held to maturity
+    - **YTC (Yield to Call)**: Total return if called early
+    - **Shortcut**: Trading at par → YTM = Coupon Rate
+    - **Callable bonds**: YTC > YTM when call price > current price
+    - Call risk: Bond called when rates drop (must reinvest at lower rates)
+    - Perfect on practice problem (25-yr bond, 10% coupon at par, callable at $1,050) ✓
+  - **Bond Yield Rankings - MASTER PATTERN** (2025-10-24) - MASTERED:
+    - **Premium bonds** (Price > $1,000): **YTC < YTM < CY < CR**
+      - YTC lowest (lose premium soonest if called)
+      - Getting called is BAD (lose high coupon income)
+    - **Par bonds** (Price = $1,000): **YTC = YTM = CY = CR**
+      - All equal to coupon rate
+    - **Discount bonds** (Price < $1,000): **CR < CY < YTM < YTC**
+      - YTC highest (gain capital appreciation soonest if called)
+      - Getting called is GOOD (get gain faster)
+    - **The Four Yield Measures**:
+      - **CR (Coupon Rate)**: Annual Coupon ÷ Par (never changes)
+      - **CY (Current Yield)**: Annual Coupon ÷ Current Price
+      - **YTM**: Total return to maturity (includes capital gain/loss)
+      - **YTC**: Total return if called (includes capital gain/loss at call)
+    - **Memory tricks**:
+      - Premium: "Call Yields Terrible Misery" (YTC < YTM < CY < CR)
+      - Discount: "Can't You Try Calling?" (CR < CY < YTM < YTC)
+      - Par: "Everyone's Equal"
+    - Comprehensive understanding demonstrated ✓
+  - **In slides**: Pages 95-130
+  - **Still need to cover**: Duration, immunization, dividend discount model, P/E ratios
+
+- [x] **D.34 Investment strategies** (2025-10-11, 2025-10-24) - **High confidence**
   - Short selling mechanics
   - Put options strategies
   - When to use puts vs short selling
   - Max loss calculations
+  - **Technical Analysis Strategies** (2025-10-24) - MASTERED:
+    - Range trading (buy support, sell resistance)
+    - Breakout trading (buy upward breakouts, sell downward breakouts)
+    - Support and resistance identification
   - **In slides**: Pages 140-160
 
-### Not Yet Studied (7/9 topics)
-
-- [ ] **D.27** Investment vehicles
-  - **In slides**: Money market, Fixed income, Stocks, Bonds, Options, Futures, REITs, ETFs, ADRs
-
-- [ ] **D.29** Market cycles
-  - **In slides**: Yield curve theories, EMH (Weak/Semi-Strong/Strong), Market anomalies
+### Not Yet Studied (2/9 topics)
 
 - [ ] **D.30** Quantitative concepts ⭐
   - **In slides**: HPR, IRR, Standard deviation, Beta, Sharpe/Treynor/Jensen, NPV
@@ -294,16 +366,13 @@ This single document tracks ALL your CFP exam preparation progress, including:
 - [ ] **D.31** Asset allocation ⭐
   - **In slides**: MPT, Efficient frontier, CAPM, Portfolio risk formula
 
-- [ ] **D.32** Bond/stock valuation
-  - **In slides**: Duration, Immunization, Yield measures, Dividend discount model, P/E ratios
-
 - [ ] **D.33** Portfolio development
   - **In slides**: IPS (RR TTLLU), Performance measures
 
 - [ ] **D.35** Alternative investments
   - **In slides**: REITs, Derivatives, Commodities
 
-**Priority**: **HIGH** - 17% of exam, focus on D.30-D.31
+**Priority**: **HIGH** - 17% of exam, now 78% complete! Focus on D.30-D.31 (quantitative concepts and asset allocation)
 
 ---
 
@@ -317,7 +386,7 @@ This single document tracks ALL your CFP exam preparation progress, including:
   - Tax doctrines: Step transaction, Constructive receipt, Assignment of income
   - **In slides**: Pages 1-15
 
-- [x] **E.37 Income tax calculations** (2025-10-11, 2025-10-19) - **High confidence**
+- [x] **E.37 Income tax calculations** (2025-10-11, 2025-10-19, 2025-10-24) - **High confidence**
   - Capital gains/losses netting rules
   - Tax rates: 0%/15%/20% for LTCG
   - Perfect execution on calculations
@@ -326,6 +395,18 @@ This single document tracks ALL your CFP exam preparation progress, including:
     - OR 90% of current year
     - Use LESSER amount to avoid penalty
     - Perfect on lottery winnings problem ✓
+  - **OID (Original Issue Discount) Taxation - Zero-Coupon Bonds** (2025-10-24) - MASTERED:
+    - OID = Par value - Purchase price
+    - Must use **compound interest accretion** (NOT straight-line)
+    - Calculate implied YTM first: FV = PV × (1 + r)^n
+    - Each year: Taxable interest = Beginning value × YTM
+    - Taxable amount increases each year (compound growth)
+    - **Phantom income**: Pay tax on money not received
+    - Example: $445 bond → $1,000 in 10 years at 8.41% YTM
+      - Year 1: $445 × 8.41% = $37.42 tax
+      - Year 2: $482.42 × 8.41% = $40.57 tax
+    - Common trap: Straight-line would be ($1,000 - $445) ÷ 10 = $55.50 (WRONG!)
+    - Perfect on practice problem (Year 2 taxable interest calculation) ✓
   - **In slides**: Pages 20-50 (Filing status, Standard deduction, Gross income, Kiddie tax, AMT)
 
 - [x] **E.38 Business entity taxation** (2025-10-11) - ⚠️ **HIGH PRIORITY GAP**
